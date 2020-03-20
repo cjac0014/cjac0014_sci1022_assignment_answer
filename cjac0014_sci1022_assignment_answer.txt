@@ -1,10 +1,27 @@
-1.
+Task 1.
 $ mkdir ~/ebooks/
-$ curl http://www.gutenburg.org/cache/epub/2265/pg2265.txt -o ~/ebooks/hamlet.txt
-% Total   % Recieved   % Xferd   Average  Speed   Time   Time   Time   Current
-                                 Dload    Upload  Total  Spent  Left   Speed
-100   116   100   116   0   0       53        0  0:00:02 0:00:02 --:--:--   53
+$ curl http://www.gutenberg.org/cache/epub/2265/pg2265.txt -o ~/ebooks/hamlet.txt
+
+% Total   % Recieved   % Xferd   Average  Speed   Time   Time   Time     Current
+                                 Dload    Upload  Total  Spent  Left     Speed
+100   180k   100   180k   0   0   83290        0  0:00:02 0:00:02 --:--:-- 83366
 
 
-2.
+Task 2.
+~$ cd usr/lib/
+~/usr/lib$ ls -l ~/ebooks/hamlet.txt
+
+-rw-rw-r--+ 1 cjac0014 Domain Users 184406 Mar 20 10:46 /home/cjac0014/ebooks/hamlet.txt
+
+
+~$ cd usr/lib/
+~/usr/lib$ cd ~ebooks/
+~/ebooks$ ls -l
+
+-rw-rw-r--+ 1 cjac0014 Domain Users 184406 Mar 20 10:46 /home/cjac0014/ebooks/hamlet.txt
+
+Task 3.
+~/ebooks$ wc hamlet.txt
+    5307   32252   184406  hamlet.txt
+
 
