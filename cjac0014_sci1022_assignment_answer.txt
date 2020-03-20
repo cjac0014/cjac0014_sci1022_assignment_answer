@@ -22,18 +22,21 @@ Task 2.
 
 
 Task 3.
+$ cd ~/ebooks/
 ~/ebooks$ wc hamlet.txt
     5307   32252   184406  hamlet.txt
 
 
 
 Task 4.
+$ cd ~/ebooks/
 ~/ebooks$ tail -n +3447 hamlet.txt | head -n 1
 Is thought-sicke at the act
 
 
 
 Task 5.
+$ cd ~/ebooks/
 ~/ebooks$ grep -i hamlet hamlet.txt | wc
 109   709   4278
 *Hence, H/hamlet is present 709 times in the text.*
