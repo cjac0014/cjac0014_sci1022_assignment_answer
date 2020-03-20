@@ -32,3 +32,8 @@ Task 4.
 Is thought-sicke at the act
 
 
+
+Task 5.
+~/ebooks$ grep -i hamlet hamlet.txt | wc
+109   709   4278
+*Hence, H/hamlet is present 709 times in the text.*
